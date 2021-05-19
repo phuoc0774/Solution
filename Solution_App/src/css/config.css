@@ -1,0 +1,49 @@
+
+:root{
+    --button-color:#2ecc71;
+}
+@media only screen and (min-width:0){
+    .k{
+        position: relative;
+        float: left;
+    }
+    .t{
+        color: #333333;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .main-form{
+        width:100%;
+    }
+    .button-green{
+        padding: 2px 5px;
+        border: 1px solid rgba(51,51,51,0.1);
+        -webkit-box-shadow: 2px 3px 8px;
+        box-shadow: 2px 3px 8px;
+        cursor: pointer;
+        margin-top: 3px;
+        margin-left: 10px;
+        border-radius: 4px;
+        transform: translate(0px, 5px);
+        -webkit-transform: translate(0px, 5px);
+        box-shadow: 0px 1px 0px 0px;
+        background-color: #2ecc71;
+        box-shadow: 0px 5px 0px 0px #15B358;
+    }
+    .empty-form{
+        background-position: center;
+        /* background-image: url("../assets/img/unnamed.png"); */
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+        opacity: 0.5;
+    }
+    .modal-backdrop {
+        opacity: 0.5!important;
+   }
+   #tblSoTram thead td,  #tblSoTram thead th{
+       color: black!important;
+   }
+}
